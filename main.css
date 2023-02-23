@@ -1,0 +1,240 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*
+Grid
+*/
+
+*, *:before, *:after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+.navigation{
+    padding-left: 48px;
+    padding-right: 48px;
+    margin: 0 auto;
+    background-color: #1f2937;
+}
+.nav-container{
+    padding-left: 48px;
+    padding-right: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.right-link,ul{
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+.header-content{
+    padding-left: 48px;
+    padding-right: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-text{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: extra bold;
+}
+.secondary-text{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 8px;
+}
+.hero{
+    background-color: #3882f6;
+    margin: 3px;
+    border: none;
+    padding: 4px 16px;
+    border-radius: 4px;
+    color: #f9faf8;
+    margin-bottom: 72px;
+}
+input{
+    width: 400px;
+    height: 150px;
+    text-align: center;
+    background: lightgray;
+    color: #f9faf8;
+    border: none;
+}
+/*
+Section two
+*/
+.information{
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+    margin: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.random-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 64px;
+    flex-wrap: wrap;
+}
+.random{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 164px;
+    text-align: center;
+    gap: 4px;
+}
+.random p{
+    color: #1f2937;
+}
+.info{
+    width: 132px;
+    height: 132px;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+}
+
+/*
+Section Three
+*/
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+.quote p{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.quote strong{
+    display: flex;
+    color: black;
+    justify-content: right;
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+}
+/*
+Section four
+*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 52px;
+}
+.call-to-action{
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-around;
+    align-items: center;
+    width: 960px;
+    height: 200px;
+    border-radius: 16px;
+}
+.heading{
+    color: #e5e7eb;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.heading div{
+    font-weight: 400;
+    font-size: 18px;
+    color: #f9faf8;
+}
+.action{
+    text-align: center;
+    background-color: #3882f6;
+    border: 2px solid #e5e7eb;
+    padding: 8px 24px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+.action button{
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: none;
+    font-weight: bold;
+}
+
+/*
+Footer
+*/
+.copyright{
+    display: flex;
+    background-color: #1f2937;
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+}
